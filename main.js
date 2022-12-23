@@ -56,4 +56,9 @@ Array.from(projectsclass).forEach(link => {
 });
 
 
+// Nav bar shrinks when scrolling down
+window.addEventListener('scroll', function(){
+  let nav = document.querySelector("nav");
+  nav.classList.toggle("sticky", window.scrollY > 0);
+})
 
