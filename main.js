@@ -33,35 +33,27 @@ function scrollUp() {
 }
 
 // Nav bar links to scroll down page
-const aboutmeNav = document.getElementById("aboutmeNav");
-const aboutmeHamburger = document.getElementById("aboutmeHamburger");
-const skillsNav = document.getElementById("skillsNav");
-const skillsHamburger = document.getElementById("skillsHamburger");
-const projectsNav = document.getElementById("projectsNav");
-const projectsHamburger = document.getElementById("projectsHamburger");
+const aboutmeclass = document.getElementsByClassName("aboutmeclass");
+const skillsclass = document.getElementsByClassName("skillsclass");
+const projectsclass = document.getElementsByClassName("projectsclass");
 const aboutme = document.getElementById("aboutme");
 const skills = document.getElementById("skills");
 const projects = document.getElementById("projects");
-aboutmeNav.addEventListener('click', () => {
-  aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-skillsNav.addEventListener('click', () => {
-  skills.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-projectsNav.addEventListener('click', () => {
-  projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-aboutmeHamburger.addEventListener('click', () => {
-  aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-skillsHamburger.addEventListener('click', () => {
-  skills.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-
-projectsHamburger.addEventListener('click', () => {
-  projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-})
-
+Array.from(aboutmeclass).forEach(link => {
+    link.addEventListener('click', function(event) {
+      aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    });
+});
+Array.from(skillsclass).forEach(link => {
+  link.addEventListener('click', function(event) {
+    skills.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  });
+});
+Array.from(projectsclass).forEach(link => {
+  link.addEventListener('click', function(event) {
+    projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  });
+});
 
 
 
