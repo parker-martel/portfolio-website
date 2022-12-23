@@ -15,3 +15,33 @@ checkbox.addEventListener('change', () => {
   }
 });
 
+// Hamburger menu
+let hamburger = document.querySelector('#hamburgerclick');
+let table = document.querySelector('#table');
+hamburger.addEventListener('click', () => {
+  if (hamburger.checked){
+    table.classList.remove("hidden");
+  } else {
+  table.classList.add("hidden");
+  }
+  
+
+});
+
+// Scroll to top button
+let topButton = document.querySelector("#scrollUpButton");
+  // When the user scrolls down 200px from the top of the document, show the button
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      topButton.classList.remove("hidden");
+    } else {
+      topButton.classList.add("hidden");
+    }
+  }
+
+topButton.addEventListener('click', scrollUp);
+// When the user clicks on the button, scroll to the top of the document
+function scrollUp() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
