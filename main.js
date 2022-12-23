@@ -15,19 +15,6 @@ checkbox.addEventListener('change', () => {
   }
 });
 
-// Hamburger menu
-let hamburger = document.querySelector('#hamburgerclick');
-let table = document.querySelector('#table');
-hamburger.addEventListener('click', () => {
-  if (hamburger.checked){
-    table.classList.remove("hidden");
-  } else {
-  table.classList.add("hidden");
-  }
-  
-
-});
-
 // Scroll to top button
 let topButton = document.querySelector("#scrollUpButton");
   // When the user scrolls down 200px from the top of the document, show the button
@@ -44,4 +31,37 @@ topButton.addEventListener('click', scrollUp);
 function scrollUp() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// Nav bar links to scroll down page
+const aboutmeNav = document.getElementById("aboutmeNav");
+const aboutmeHamburger = document.getElementById("aboutmeHamburger");
+const skillsNav = document.getElementById("skillsNav");
+const skillsHamburger = document.getElementById("skillsHamburger");
+const projectsNav = document.getElementById("projectsNav");
+const projectsHamburger = document.getElementById("projectsHamburger");
+const aboutme = document.getElementById("aboutme");
+const skills = document.getElementById("skills");
+const projects = document.getElementById("projects");
+aboutmeNav.addEventListener('click', () => {
+  aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+skillsNav.addEventListener('click', () => {
+  skills.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+projectsNav.addEventListener('click', () => {
+  projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+aboutmeHamburger.addEventListener('click', () => {
+  aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+skillsHamburger.addEventListener('click', () => {
+  skills.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+
+projectsHamburger.addEventListener('click', () => {
+  projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+})
+
+
+
 
