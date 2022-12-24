@@ -72,7 +72,7 @@ const sections = document.getElementsByClassName("section");
 
 function activeMenu(){
   let length = sections.length;
-  while (--length && window.scrollY + 97 < sections[length].offsetTop){}
+  while (--length && window.scrollY + 200 < sections[length].offsetTop){}
     Array.from(navitems).forEach(element => { 
       element.classList.remove("active")
     });
@@ -88,7 +88,7 @@ const spanitems = document.getElementsByClassName("spanitems");
 
 function activeMenu2(){
   let length = sections.length;
-  while (--length && window.scrollY + 97 < sections[length].offsetTop){}
+  while (--length && window.scrollY + 200 < sections[length].offsetTop){}
     Array.from(navitems2).forEach(element => { 
       element.classList.remove("active2")
     });

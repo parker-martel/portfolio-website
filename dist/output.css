@@ -3172,6 +3172,14 @@ html {
   margin-bottom: 24rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .block {
   display: block;
 }
@@ -3266,6 +3274,14 @@ html {
 
 .scroll-mt-20 {
   scroll-margin-top: 5rem;
+}
+
+.scroll-mt-48 {
+  scroll-margin-top: 12rem;
+}
+
+.scroll-mt-40 {
+  scroll-margin-top: 10rem;
 }
 
 .flex-col {
