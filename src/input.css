@@ -5,3 +5,11 @@
 nav.sticky {
     @apply px-9 md:px-20 py-1 bg-base-300
 }
+
+.active2 {
+    @apply text-accent-content
+}
+
+.activespan {
+    @apply bg-primary visible
+}

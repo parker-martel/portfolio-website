@@ -64,3 +64,46 @@ window.addEventListener('scroll', function(){
   main.classList.toggle("py-6", window.scrollY > 0);
 })
 
+
+// Scrolling through website highlights nav bar items corresponding
+// to the current section in the viewport
+const navitems = document.getElementsByClassName("navitems");
+const sections = document.getElementsByClassName("section");
+
+function activeMenu(){
+  let length = sections.length;
+  while (--length && window.scrollY + 97 < sections[length].offsetTop){}
+    Array.from(navitems).forEach(element => { 
+      element.classList.remove("active")
+    });
+    navitems[length].classList.add("active");
+  }
+  activeMenu();
+  window.addEventListener("scroll", activeMenu);
+
+
+const navitems2 = document.getElementsByClassName("navitems2");
+const spanitems = document.getElementsByClassName("spanitems");
+
+
+function activeMenu2(){
+  let length = sections.length;
+  while (--length && window.scrollY + 97 < sections[length].offsetTop){}
+    Array.from(navitems2).forEach(element => { 
+      element.classList.remove("active2")
+    });
+    navitems2[length].classList.add("active2");
+    Array.from(spanitems).forEach(element => { 
+      element.classList.remove("activespan")
+    });
+    spanitems[length].classList.add("activespan");
+  }
+  activeMenu2();
+  window.addEventListener("scroll", activeMenu2);
+
+  
+
+
+
+
+
