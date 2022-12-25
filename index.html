@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="fixed top-0 left-0">
-    <nav class="flex justify-between items-center relative mx-auto w-screen rounded-xl px-9 md:px-20 py-6 transition-all duration-200">
+    <nav class="flex justify-between items-center relative mx-auto w-screen px-9 md:px-20 py-6 transition-all duration-200">
         <div class="hidden lg:flex justify-center items-center space-x-3">
             <img src="/assets/images/aboutus-profile-pic.png" class="h-9 rounded-full border border-black shadow-sm" alt="Profile pic">
             <h2 class="font-semibold text-accent-content text-lg md:text-lg">Parker Martel</h2>
@@ -69,59 +69,107 @@
         <!-- Name and Profile Pic Section -->
         <section class="flex flex-col justify-start items-start space-y-2 mb-20">
             <h2 class="font-semibold text-accent-content pb-1 text-4xl md:text-5xl mt-32">Hello, I'm Parker</h2>
-            <h2 class="text-md md:text-lg">Currently an undergrad student at California State University, Fullerton, I'm working towards a bachelors 
+            <h2 class="text-md md:text-lg font-light">Currently an undergrad student at California State University, Fullerton, I'm working towards a bachelors 
                 degree in computer science.
             </h2>      
         </section>
 
+        <!-- About Me section -->
+        <section>
         <h2 id="aboutme" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl mt-5">About Me</h2>
         <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <p class="text-md md:text-lg mt-5 mb-10 pb-40">My name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, Fullerton</p>
+        <p class="text-md md:text-lg mt-5 mb-10 pb-40 font-light">My name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, Fullerton</p>
+        </section>
+        
+        <!-- Skills section -->
+        <section>
         <h2 id="skills" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl">Skills</h2>
         <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full my-5 pb-40">
-            <div class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 font-light w-full my-5 pb-40">
+            <div class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/python_logo.png" alt="Python Logo">
-                <h2 class="text-accent-content text-xl">Python</h2>
+                <h2 class="text-accent-content text-lg">Python</h2>
             </div>
-            <div class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/cpp_logo.png" alt="C++ Logo">
-                <h2 class="text-accent-content text-xl">C++</h2>
+                <h2 class="text-accent-content text-lg">C++</h2>
             </div>
-            <div class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-9" src="assets/images/html5_logo.png" alt="HTML Logo">
-                <h2 class="text-accent-content text-xl">HTML</h2>
+                <h2 class="text-accent-content text-lg">HTML</h2>
             </div>
-            <div class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-9" src="assets/images/css_logo.png" alt="CSS Logo">
-                <h2 class="text-accent-content text-xl">CSS</h2>
+                <h2 class="text-accent-content text-lg">CSS</h2>
             </div>
-            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-9" src="assets/images/js_logo.png" alt="JS Logo">
-                <h2 class="text-accent-content text-xl">JavaScript</h2>
+                <h2 class="text-accent-content text-lg">JavaScript</h2>
             </div>
-            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-inner">
                 <img class="w-8" src="assets/images/nodejs_logo2.png" alt="Node.js Logo">
-                <h2 class="text-accent-content text-xl">Node.js</h2>
+                <h2 class="text-accent-content text-lg">Node.js</h2>
             </div>
-            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 py-4 px-1 rounded-lg border-2 border-base-300 shadow-sm">
+            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 px-1 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/tailwind_logo.png" alt="Tailwind Logo">
-                <h2 class="text-accent-content text-xl">Tailwind CSS</h2>
+                <h2 class="text-accent-content text-lg">Tailwind CSS</h2>
             </div>
-            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/git_logo.png" alt="Git Logo">
-                <h2 class="text-accent-content text-xl">Git</h2>
+                <h2 class="text-accent-content text-lg">Git</h2>
             </div>
-            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 p-4 rounded-lg border-2 border-base-300 shadow-sm">
+            <div id="js" class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/mysql_logo.png" alt="MySQL Logo">
-                <h2 class="text-accent-content text-xl">MySQL</h2>
+                <h2 class="text-accent-content text-lg">MySQL</h2>
             </div>
-
-           
           </div>
+        </section>
+
+        <!-- Projects section -->
+        <section>
         <h2 id="projects" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl">Projects</h2>
         <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <p class="text-md md:text-lg mt-5 mb-10">My name is Parker and I am an undergrad student at California State University, Fullerton</p>
+        <div class="flex flex-col w-full space-y-10 my-5 pb-40">
+            <!-- 
+            <div class="dropdown">
+                <label tabindex="0" class="btn font-light flex hover:bg-base-200 hover:border-base-300 justify-around items-center rounded-t-md rounded-b-md focus:rounded-b-none px-4 py-3 bg-base-200 rounded-none border-t-2 border-l-2 border-r-2 border-base-300 w-full">
+                    <h2 class="text-accent-content text-md">Rock, Paper, Scissors</h2>
+                </label>
+                <div class="dropdown-content hover:bg-base-200 menu w-full shadow bg-base-200 border-l-2 border-b-2 border-r-2 border-base-300">
+                <h2 class="text-accent-content text-md font-light mt-5 p-2">Web development project using HTML, CSS, and JavaScript</h2>
+                </div>
+            </div>
+            <div class="dropdown">
+                <label tabindex="0" class="btn font-light flex hover:bg-base-200 hover:border-base-300 justify-around items-center rounded-t-md rounded-b-md focus:rounded-b-none px-4 py-3 bg-base-200 rounded-none border-t-2 border-l-2 border-r-2 border-base-300 w-full">
+                    <h2 class="text-accent-content text-md">Task Blaster</h2>
+                </label>
+                <div class="dropdown-content hover:bg-base-200 menu w-full shadow bg-base-200 border-l-2 border-b-2 border-r-2 border-base-300">
+                <h2 class="text-accent-content text-md font-light mt-5 p-2">Web development project using HTML, CSS, and Remake, a low-code backend tool.</h2>
+                </div>
+            </div>
+             -->
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-light text-accent-content">
+                    Rock, Paper, Scissors
+                </div>
+                <div class="collapse-content"> 
+                    <div class="h-0.5 bg-base-200 mb-2"></div>
+                    <p>Web development project using HTML, CSS, and JavaScript</p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-light text-accent-content">
+                    Task Blaster
+                </div>
+                <div class="collapse-content"> 
+                    <div class="h-0.5 bg-base-200 mb-2"></div>
+                    <p>Web development project using HTML, CSS, and Remake, a low-code backend tool.</p>
+                </div>
+              </div>
+              
+        
+        </div>
+        </section>
         
 
       <!-- Implement the Back Top Top Button -->
