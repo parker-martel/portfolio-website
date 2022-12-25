@@ -78,14 +78,14 @@
         <section>
         <h2 id="aboutme" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl mt-5">About Me</h2>
         <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <p class="text-md md:text-lg mt-5 mb-10 pb-40 font-light">My name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, Fullerton</p>
+        <p class="text-md md:text-lg mt-5 mb-10 pb-20 font-light">My name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, FullertonMy name is Parker and I am an undergrad student at California State University, Fullerton</p>
         </section>
         
         <!-- Skills section -->
         <section>
         <h2 id="skills" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl">Skills</h2>
         <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 font-light w-full my-5 pb-40">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 font-light w-full my-5 pb-20">
             <div class="flex justify-center space-x-3 items-center bg-base-200 px-4 py-3 rounded-lg border-2 border-base-300 shadow-base-200 shadow-sm">
                 <img class="w-8" src="assets/images/python_logo.png" alt="Python Logo">
                 <h2 class="text-accent-content text-lg">Python</h2>
@@ -127,9 +127,10 @@
 
         <!-- Projects section -->
         <section class="z-0">
-        <h2 id="projects" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl">Projects</h2>
-        <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
-        <div class="flex flex-col w-full space-y-10 my-5 pb-40">
+            <!-- Project 1 -->
+            <h2 id="projects" class="section scroll-mt-20 font-semibold text-accent-content pb-1 text-3xl md:text-4xl">Projects</h2>
+            <div class="w-1/3 h-0.5 rounded-full bg-primary"></div>
+            <div class="flex flex-col w-full space-y-10 my-5 pb-40">
             <!-- 
             <div class="dropdown">
                 <label tabindex="0" class="btn font-light flex hover:bg-base-200 hover:border-base-300 justify-around items-center rounded-t-md rounded-b-md focus:rounded-b-none px-4 py-3 bg-base-200 rounded-none border-t-2 border-l-2 border-r-2 border-base-300 w-full">
@@ -148,45 +149,78 @@
                 </div>
             </div>
              -->
-            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow border border-primary bg-base-100 rounded-box">
+                    <input type="checkbox" class="peer" /> 
+                    <div class="collapse-title text-xl font-light text-accent-content">
+                        Rock, Paper, Scissors ✂️
+                    </div>
+                    <div class="collapse-content"> 
+                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="flex flex-col items-center w-full space-y-5">
+                            <p>Project for front-end web engineering to build a design and implement a client-side, simple turn-based game application that works entirely in the browser, requiring only HTML, CSS, and JavaScript. Rock, Paper, Scissors uses Tailwind CSS framework with the DaisyUI Tailwind plugin.</p>
+                            <img src="assets/images/RPS_1.png" alt="Rock Paper Scissors Image 1">
+                            <img src="assets/images/RPS_2.png" alt="Rock Paper Scissors Image 2">
+                            <img src="assets/images/RPS_3.png" alt="Rock Paper Scissors Image 3">
+                            <a class="btn btn-outline btn-info btn-sm" href="https://github.com/parker-martel/cpsc349-rock-paper-scissors" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+    
+
+            <!-- Project 2 -->
+            <div tabindex="0" class="collapse collapse-arrow border border-primary bg-base-100 rounded-box">
                 <input type="checkbox" class="peer" /> 
                 <div class="collapse-title text-xl font-light text-accent-content">
-                    Rock, Paper, Scissors
+                    Task Blaster 📝
                 </div>
                 <div class="collapse-content"> 
                     <div class="h-0.5 bg-base-200 mb-2"></div>
-                    <div class="flex flex-col items-center w-full space-y-5"></div>
-                    <p>Project for front-end web engineering to build a design and implement a client-side, simple turn-based game application that works entirely in the browser, requiring only HTML, CSS, and JavaScript.</p>
-                    <img src="assets/images/RPS_1.png" alt="Rock Paper Scissors Image 1">
-                    <img src="assets/images/RPS_2.png" alt="Rock Paper Scissors Image 2">
-                    <img src="assets/images/RPS_3.png" alt="Rock Paper Scissors Image 3">
-                    <a class="btn btn-outline btn-info btn-sm" href="https://github.com/parker-martel/cpsc349-rock-paper-scissors" target="_blank">Source Code</a>
+                    <div class="flex flex-col items-center w-full space-y-5">
+                        <p>Group project for front-end web engineering to design and prototype a working web application using a CSS framework (Tailwind) and a low-code backend tool (Remake). We created Task Blaster, a simple todo list application with user account creation and login support. Features a landing page, signup and login pages, and the main todo list page. Uses Tailwind CSS framework.</p>
+                        <img src="assets/images/task_1.png" alt="Task Blaster Image 1">
+                        <img src="assets/images/task_2.png" alt="Task Blaster Image 2">
+                        <img src="assets/images/task_3.png" alt="Task Blaster Image 3">
+                        <img src="assets/images/task_4.png" alt="Task Blaster Image 3">
+                        <a class="btn btn-outline btn-info btn-sm" href="https://github.com/parker-martel/cpsc349-task-blaster" target="_blank">Source Code</a>
+                    </div>
                 </div>
-              </div>
-              <div tabindex="0" class="collapse collapse-arrow border border-primary bg-base-100 rounded-box">
+            </div>
+            
+
+              <!-- Project 3 -->
+            <div tabindex="0" class="collapse collapse-arrow border border-primary bg-base-100 rounded-box">
+                <input type="checkbox" class="peer" /> 
                 <div class="collapse-title text-xl font-light text-accent-content">
-                    Task Blaster
+                    University Database System 🗄️
                 </div>
                 <div class="collapse-content"> 
                     <div class="h-0.5 bg-base-200 mb-2"></div>
-                    <p>Web development project using HTML, CSS, and Remake, a low-code backend tool.</p>
+                    <div class="flex flex-col items-center w-full space-y-5">
+                        <p>Web development project using HTML, CSS, and Remake, a low-code backend tool.</p>
+                        <img src="assets/images/RPS_1.png" alt="Rock Paper Scissors Image 1">
+                        <img src="assets/images/RPS_2.png" alt="Rock Paper Scissors Image 2">
+                        <img src="assets/images/RPS_3.png" alt="Rock Paper Scissors Image 3">
+                        <a class="btn btn-outline btn-info btn-sm" href="https://github.com/parker-martel/cpsc349-rock-paper-scissors" target="_blank">Source Code</a>
+                    </div>
                 </div>
-              </div>
-              <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            </div>
+            <div tabindex="0" class="collapse collapse-arrow border border-primary bg-base-100 rounded-box">
+                <input type="checkbox" class="peer" /> 
                 <div class="collapse-title text-xl font-light text-accent-content">
-                    University Database System
+                    Context-Free Grammar Compiler Program 🔑
                 </div>
                 <div class="collapse-content"> 
                     <div class="h-0.5 bg-base-200 mb-2"></div>
-                    <p>Web development project using HTML, CSS, and Remake, a low-code backend tool.</p>
+                    <div class="flex flex-col items-center w-full space-y-5">
+                        <p>Compilers project to write a compiler in c++ that, given the Context-Free Grammar and the parsing table, traces input strings over the arithmetic alphabet { i, +, - , *, / ), ( } ending with $, checking against the production rules and verifying if the given input string is accepted or rejected by compiler.</p>
+                        <img src="assets/images/output_1.png" alt="Compilers Project Image 1">
+                        <img src="assets/images/output_2_3.png" alt="Compilers Project Image 2">
+                        <a class="btn btn-outline btn-info btn-sm" href="https://github.com/parker-martel/compilers-project2" target="_blank">Source Code</a>
+                    </div>
                 </div>
-              </div>
-              
-        
+            </div>
         </div>
         </section>
-        
-
       <!-- Implement the Back Top Top Button -->
     <button id="scrollUpButton" class="hidden fixed z-90 bottom-7 right-7 md:bottom-12 md:right-12 border-0 w-12 h-12 rounded-full drop-shadow-md bg-primary text-white text-3xl font-bold">&uarr;</button>
     </main>
