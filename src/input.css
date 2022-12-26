@@ -5,6 +5,9 @@
 nav.sticky {
     @apply py-1 bg-base-200 shadow-md
 }
+nav {
+    transition: padding 200ms, background-color 200ms
+}
 
 .active2 {
     @apply text-accent-content
@@ -13,3 +16,4 @@ nav.sticky {
 .activespan {
     @apply bg-primary visible
 }
+
