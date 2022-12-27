@@ -32,7 +32,7 @@ function scrollUp() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Nav bar links to scroll down page
+// Nav bar links that scroll down page when clicked
 const aboutmeclass = document.getElementsByClassName("aboutmeclass");
 const skillsclass = document.getElementsByClassName("skillsclass");
 const projectsclass = document.getElementsByClassName("projectsclass");
@@ -63,11 +63,11 @@ window.addEventListener('scroll', function(){
 })
 
 
-// Scrolling through website highlights nav bar items corresponding
-// to the current section in the viewport
+// Highligth nav bar items when scrolling down to each section
 const navitems = document.getElementsByClassName("navitems");
 const sections = document.getElementsByClassName("section");
 
+// Hamburger menu items
 function activeMenu(){
   let length = sections.length;
   while (--length && window.scrollY + 200 < sections[length].offsetTop){}
@@ -84,6 +84,7 @@ const navitems2 = document.getElementsByClassName("navitems2");
 const spanitems = document.getElementsByClassName("spanitems");
 
 
+ // Large menu items
 function activeMenu2(){
   let length = sections.length;
   while (--length && window.scrollY + 200 < sections[length].offsetTop){}
