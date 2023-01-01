@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 nav.sticky {
-    @apply py-1 bg-base-200 shadow-md
+    @apply py-1
 }
 nav {
-    transition: padding 200ms, background-color 200ms
+    transition: padding 200ms
+}
+
+.border {
+    border-width:3px
 }
 
 .active2 {
