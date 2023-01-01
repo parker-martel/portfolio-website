@@ -3767,6 +3767,110 @@ html {
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-current {
+  background-color: currentColor;
+}
+
+.bg-\[url\(\'\/assets\/images\/sunset2\.jpeg\'\)\] {
+  background-image: url('/assets/images/sunset2.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/red-mountain\.jpeg\'\)\] {
+  background-image: url('/assets/images/red-mountain.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/earth\.jpeg\'\)\] {
+  background-image: url('/assets/images/earth.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/earth2\.jpeg\'\)\] {
+  background-image: url('/assets/images/earth2.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/moon\.jpeg\'\)\] {
+  background-image: url('/assets/images/moon.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/\2c m\.jpeg\'\)\] {
+  background-image: url('/assets/images/,m.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/red-earth\.jpeg\'\)\] {
+  background-image: url('/assets/images/red-earth.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/hexagon\.jpeg\'\)\] {
+  background-image: url('/assets/images/hexagon.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/hexagon\.png\'\)\] {
+  background-image: url('/assets/images/hexagon.png');
+}
+
+.bg-\[url\(\'\/assets\/images\/Hexgon\.png\'\)\] {
+  background-image: url('/assets/images/Hexgon.png');
+}
+
+.bg-\[url\(\'\/assets\/images\/Hexgon2\.png\'\)\] {
+  background-image: url('/assets/images/Hexgon2.png');
+}
+
+.bg-\[url\(\'\/assets\/images\/weird\.jpeg\'\)\] {
+  background-image: url('/assets/images/weird.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/planet\.jpeg\'\)\] {
+  background-image: url('/assets/images/planet.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/wavey\.jpeg\'\)\] {
+  background-image: url('/assets/images/wavey.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/sand\.jpeg\'\)\] {
+  background-image: url('/assets/images/sand.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/leaf\.jpeg\'\)\] {
+  background-image: url('/assets/images/leaf.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/leaf2\.jpeg\'\)\] {
+  background-image: url('/assets/images/leaf2.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/picture\.jpeg\'\)\] {
+  background-image: url('/assets/images/picture.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/lines\.jpeg\'\)\] {
+  background-image: url('/assets/images/lines.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/lines\.jpg\'\)\] {
+  background-image: url('/assets/images/lines.jpg');
+}
+
+.bg-\[url\(\'\/assets\/images\/spiral\.jpg\'\)\] {
+  background-image: url('/assets/images/spiral.jpg');
+}
+
+.bg-\[url\(\'\/assets\/images\/spiral\.jpeg\'\)\] {
+  background-image: url('/assets/images/spiral.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/Hexgon\.jpeg\'\)\] {
+  background-image: url('/assets/images/Hexgon.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/images\/spiral2\.jpeg\'\)\] {
+  background-image: url('/assets/images/spiral2.jpeg');
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -3877,14 +3981,14 @@ html {
   color: hsl(var(--ac) / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
@@ -3965,12 +4069,6 @@ nav {
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-150:hover {
-  --tw-scale-x: 1.5;
-  --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
