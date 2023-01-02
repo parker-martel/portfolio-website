@@ -6,7 +6,7 @@ nav.sticky {
     @apply py-1
 }
 nav {
-    transition: padding 200ms
+    transition: padding 200ms;
 }
 
 .border {
@@ -14,7 +14,7 @@ nav {
 }
 
 .active2 {
-    @apply text-accent-content
+    @apply text-black font-bold
 }
 
 .activespan {
