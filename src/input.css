@@ -13,6 +13,10 @@ nav {
     border-width:3px
 }
 
+.border-box {
+    border-width:2px
+}
+
 .active2 {
     @apply text-black font-bold
 }
@@ -21,3 +25,10 @@ nav {
     @apply bg-primary visible
 }
 
+.skills-boxes {
+    @apply flex justify-center space-x-3 items-center bg-white px-4 py-3 rounded border border-neutral shadow-md shadow-base-300
+}
+
+.language-box {
+    @apply flex justify-center space-x-2 items-center px-2 py-1 rounded-lg bg-base-200 border-box border-neutral
+}
