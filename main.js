@@ -16,12 +16,19 @@ function scrollUp() {
 }
 
 // Nav bar links that scroll down page when clicked
+const homeclass = document.getElementsByClassName("homeclass");
 const aboutmeclass = document.getElementsByClassName("aboutmeclass");
 const skillsclass = document.getElementsByClassName("skillsclass");
 const projectsclass = document.getElementsByClassName("projectsclass");
+const home = document.getElementById("home");
 const aboutme = document.getElementById("aboutme");
 const skills = document.getElementById("skills");
 const projects = document.getElementById("projects");
+Array.from(homeclass).forEach(link => {
+  link.addEventListener('click', function(event) {
+    home.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  });
+});
 Array.from(aboutmeclass).forEach(link => {
     link.addEventListener('click', function(event) {
       aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
@@ -36,6 +43,13 @@ Array.from(projectsclass).forEach(link => {
   link.addEventListener('click', function(event) {
     projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   });
+});
+
+
+let aboutmebtn = document.getElementById("AboutmeButton");
+// About Me Button
+aboutmebtn.addEventListener('click', function(event) {
+  aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 });
 
 

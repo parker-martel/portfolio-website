@@ -23,6 +23,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
                 <ul id="table" tabindex="0" class="dropdown-content menu p-2 shadow-md bg-base-200 rounded-box w-52">
+                    <li><a class="homeclass navitems">Home</a></li>
                     <li><a class="aboutmeclass navitems">About Me</a></li>
                     <li><a class="skillsclass navitems">Skills</a></li>
                     <li><a class="projectsclass navitems">Projects</a></li>
@@ -31,6 +32,10 @@
 
             <!-- Menu for big screens -->
             <div class="hidden md:flex justify-center items-center pt-3 space-x-8">
+                <button class="homeclass navitems2 text-lg font-semibold hover:text-black group transition duration-300">
+                    Home
+                <span class="block spanitems mt-4 max-w-full group-hover:visible h-0.5 invisible bg-primary-focus"></span>
+                </button>
                 <button class="aboutmeclass navitems2 text-lg font-semibold hover:text-black group transition duration-300">
                     About Me
                 <span class="block spanitems mt-4 max-w-full group-hover:visible h-0.5 invisible bg-primary-focus"></span>
@@ -47,48 +52,35 @@
             <div class="flex justify-center items-center space-x-7">
                 <a id="linkedin" class="devicon-linkedin-plain colored text-3xl hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank">
                     <a id="github" class="devicon-github-original colored text-3xl hover:scale-110 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank"></a>
-                <a class="btn btn-outline btn-primary" href="/assets/My Resume.pdf" target="_blank">Resume</a>
+                <a class="btn btn-primary" href="/assets/My Resume.pdf" target="_blank">Resume</a>
             </div>            
         </nav>
     </header>
-    <main class="flex flex-col mx-auto max-w-4xl mt-16 px-10 md:px-12 pt-5">
+    <main class="flex flex-col mx-auto max-w-4xl px-10 md:px-12">
         <!-- Name and Profile Pic Section -->
-        <section class="flex flex-col items-center text-center sm:justify-start sm:items-start sm:text-left space-y-7 mb-32">
-            <h2 class="font-bold pb-1 text-5xl md:text-6xl mt-32">Hi There,</h2>
-            <h2 class="font-bold pb-1 text-5xl md:text-6xl mt-32">I'm Parker <span class="text-primary">Martel</span></h2>
-            <h2 class="text-lg md:text-xl text-left">Junior undergrad student at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>working towards a Bachelor's 
+        <section id="home" class="section flex flex-col items-center justify-center text-center sm:justify-center h-screen sm:items-start sm:text-left space-y-7">
+            <h2 class="font-bold pb-1 text-5xl md:text-6xl">Hi There,</h2>
+            <h2 class="font-bold pb-1 text-5xl md:text-6xl">I'm Parker <span class="text-primary">Martel</span></h2>
+            <h2 class="text-lg md:text-xl text-left font-semibold">Junior undergrad student at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>working towards a Bachelor's 
                 degree in Computer Science!
-            </h2>       
+            </h2>   
+            <button id="AboutmeButton" class="btn btn-primary">About Me</button>    
         </section>
 
         <!-- About Me section -->
-        <section class="flex flex-col justify-start items-start mb-24 z-0">
+        <section class="flex flex-col justify-start items-start mb-10 z-0">
         <h2 id="aboutme" class="section scroll-mt-24 font-semibold text-3xl md:text-4xl">About Me</h2>
         <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-        <p class="text-lg md:text-xl font-light my-5">Throughout my time here at CSUF as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
-            including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I plan to graduate in Spring of 2024 and 
-            hope to get an internship over the summer prior to graduating. Outside of my studies, I enjoy going to the beach and being in the ocean!</p>
+        <p class="text-lg md:text-xl my-5">My name is Parker and I am a CS major at CSUF! I plan to graduate in May 2024. Throughout my time as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
+            including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I always work hard and keep my teams on track, leading us to create astonishing projects. Prior to graduating, I  
+            hope to get an internship over the summer. Outside of my studies, I enjoy going to the beach and being in the ocean!</p>
         </section>
 
-         <!-- Progress section -->
-
-         <!-- <section class="z-0">
-            <h2 class=" scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Education</h2>
-            <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-            <div class="mb-32 mt-5 font-light">
-                <ul class="steps steps-horizontal max-w-xl pt-5 bg-white p-2 rounded border border-neutral shadow-md">
-                    <li class="step step-primary"><span class="font-bold">High School Diploma</span>Trabuco Hills High School <span class="italic">2019</span></li>
-                    <li class="step step-primary"><span class="font-bold">CS Major</span>Irvine Valley College<span class="italic">2019-2021</span></li>
-                    <li class="step"><span class="font-bold">BS in Computer Science</span>CSUF<span class="italic">2019-2021</span></li>
-                </ul>
-            </div> 
-            </section>  -->
-        
         <!-- Skills section -->
         <section class="z-0">
         <h2 id="skills" class="section scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Skills</h2>
         <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 font-light w-full my-5 pb-32">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full my-5 pb-10">
             <div class="skills-boxes">
                 <img class="w-8" src="assets/images/python_logo.png" alt="Python Logo">
                 <h2 class=" text-lg">Python</h2>
@@ -132,14 +124,14 @@
         <section class="z-0">
             <h2 id="projects" class="section scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Projects</h2>
             <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-full my-5 pb-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-full my-5 pb-32">
 
             
             <!-- Project 1 -->
             <section>
             <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                 <input type="checkbox" class="peer" /> 
-                <div class="collapse-title text-xl font-light ">
+                <div class="collapse-title text-xl">
                     University Database System 🗄️
                 </div>
                 <div class="collapse-content"> 
@@ -172,7 +164,7 @@
              <section>
                 <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
-                    <div class="collapse-title text-xl font-light ">
+                    <div class="collapse-title text-xl">
                         Rock, Paper, Scissors ✂️
                     </div>
                     <div class="collapse-content"> 
@@ -203,7 +195,7 @@
                 <section>
                 <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
-                    <div class="collapse-title text-xl font-light ">
+                    <div class="collapse-title text-xl">
                         Todo List 📝
                     </div>
                     <div class="collapse-content"> 
@@ -230,7 +222,7 @@
                 <section>
                 <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
-                    <div class="collapse-title text-xl font-light ">
+                    <div class="collapse-title text-xl">
                         CF Grammar Compiler Program 🔑
                     </div>
                     <div class="collapse-content"> 
@@ -253,7 +245,7 @@
                 <section>
                 <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
-                    <div class="collapse-title text-xl font-light ">
+                    <div class="collapse-title text-xl">
                         Unix Shell 💻
                     </div>
                     <div class="collapse-content"> 
@@ -276,7 +268,7 @@
              <section>
                 <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
-                    <div class="collapse-title text-xl font-light ">
+                    <div class="collapse-title text-xl">
                         Portfolio Website 📁
                     </div>
                     <div class="collapse-content"> 
@@ -310,8 +302,8 @@
     <button id="scrollUpButton" class="hidden fixed z-90 bottom-7 right-7 md:bottom-12 md:right-12 border-0 w-12 h-12 rounded-full drop-shadow-md bg-primary text-white text-3xl font-bold">&uarr;</button>
 </main>
  <!-- Contact me section -->
- <footer class="pb-6 flex flex-col items-center p-3 bg-primary bg-opacity-40">
-    <h2 class="font-semibold text-xl pt-2">Contact Me!</h2>
+ <footer class="py-12 flex flex-col items-center bg-zinc-400">
+    <h2 class="font-bold text-xl pt-2 underline">Contact Me!</h2>
    
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 px-2 sm:px-0 sm:flex sm:jusify-center sm:space-x-3 pt-5">
         <a id="linkedin" class="devicon-linkedin-plain text-2xl hover:scale-105 md:hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank"></a>
