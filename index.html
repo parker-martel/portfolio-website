@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="en" class="bg-[url('/assets/images/lines6.jpg')]">
+<!-- <html data-theme="light" lang="en" class="bg-[url('/assets/images/dots3.jpg')]"> -->
+<html data-theme="light" lang="en" class="bg-zinc-50 h-max">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,48 +44,45 @@
                 <span class="block spanitems mt-4 max-w-full group-hover:visible h-0.5 invisible bg-primary-focus"></span>
                 </button>
             </div>
-            <div class="flex justify-center items-center space-x-7 md:space-x-10">
-                <a id="linkedin" class="devicon-linkedin-plain colored text-4xl hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank">
-                <a class="flex flex-col items-center space-y-1 hover:scale-110 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank">
-                    <img id="githubLogo" src="assets/images/github-mark.png" alt="Github White Logo" class="w-6">
-                    <img id="githubText" src="assets/images/GitHub_Logo.png" alt="Github Text" class="w-9">
-                </a>
-                <button class="btn btn-outline btn-primary">Resume</button>
+            <div class="flex justify-center items-center space-x-7">
+                <a id="linkedin" class="devicon-linkedin-plain colored text-3xl hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank">
+                    <a id="github" class="devicon-github-original colored text-3xl hover:scale-110 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank"></a>
+                <a class="btn btn-outline btn-primary" href="/assets/My Resume.pdf" target="_blank">Resume</a>
             </div>            
         </nav>
     </header>
-    <main class="flex flex-col mx-auto max-w-4xl my-10 px-10 md:px-12 py-5">
+    <main class="flex flex-col mx-auto max-w-4xl mt-16 px-10 md:px-12 pt-5">
         <!-- Name and Profile Pic Section -->
-        <section class="flex flex-col justify-start items-start space-y-7 mb-32">
+        <section class="flex flex-col items-center text-center sm:justify-start sm:items-start sm:text-left space-y-7 mb-32">
             <h2 class="font-bold pb-1 text-5xl md:text-6xl mt-32">Hi There,</h2>
             <h2 class="font-bold pb-1 text-5xl md:text-6xl mt-32">I'm Parker <span class="text-primary">Martel</span></h2>
-            <h2 class="text-lg md:text-xl">I'm a third year undergrad student at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>and I'm working towards a Bachelor's 
+            <h2 class="text-lg md:text-xl text-left">Junior undergrad student at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>working towards a Bachelor's 
                 degree in Computer Science!
-            </h2>      
+            </h2>       
         </section>
 
         <!-- About Me section -->
         <section class="flex flex-col justify-start items-start mb-24 z-0">
         <h2 id="aboutme" class="section scroll-mt-24 font-semibold text-3xl md:text-4xl">About Me</h2>
         <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-        <p class="text-lg md:text-xl font-light my-5 bg-white p-2 rounded border border-neutral shadow-md">Throughout my time here at CSUF as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
+        <p class="text-lg md:text-xl font-light my-5">Throughout my time here at CSUF as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
             including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I plan to graduate in Spring of 2024 and 
             hope to get an internship over the summer prior to graduating. Outside of my studies, I enjoy going to the beach and being in the ocean!</p>
         </section>
 
          <!-- Progress section -->
-         <section class="z-0">
-            <h2 class=" scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Progress</h2>
+
+         <!-- <section class="z-0">
+            <h2 class=" scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Education</h2>
             <div class="w-1/3 h-1 rounded-full bg-primary"></div>
             <div class="mb-32 mt-5 font-light">
-                <ul class="steps steps-vertical md:steps-horizontal max-w-xl pt-5 bg-white p-2 rounded border border-neutral shadow-md">
-                    <li class="step step-primary">Finish Community College</li>
-                    <li class="step step-primary">Start University</li>
-                    <li class="step ">Internship</li>
-                    <li class="step">Get Degree</li>
+                <ul class="steps steps-horizontal max-w-xl pt-5 bg-white p-2 rounded border border-neutral shadow-md">
+                    <li class="step step-primary"><span class="font-bold">High School Diploma</span>Trabuco Hills High School <span class="italic">2019</span></li>
+                    <li class="step step-primary"><span class="font-bold">CS Major</span>Irvine Valley College<span class="italic">2019-2021</span></li>
+                    <li class="step"><span class="font-bold">BS in Computer Science</span>CSUF<span class="italic">2019-2021</span></li>
                 </ul>
             </div> 
-            </section>
+            </section>  -->
         
         <!-- Skills section -->
         <section class="z-0">
@@ -115,7 +113,7 @@
                 <img class="w-8" src="assets/images/nodejs_logo2.png" alt="Node.js Logo">
                 <h2 class=" text-lg">Node.js</h2>
             </div>
-            <div class="flex justify-center space-x-3 items-center bg-white px-1 py-3 rounded border border-neutral shadow-md shadow-base-300">
+            <div class="flex justify-center space-x-3 items-center bg-white px-1 py-3 rounded-lg border border-neutral shadow-md shadow-base-300">
                 <img class="w-8" src="assets/images/tailwind_logo.png" alt="Tailwind Logo">
                 <h2 class=" text-lg">Tailwind CSS</h2>
             </div>
@@ -134,18 +132,18 @@
         <section class="z-0">
             <h2 id="projects" class="section scroll-mt-24 font-semibold pb-1 text-3xl md:text-4xl">Projects</h2>
             <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-full my-5 pb-72">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 w-full my-5 pb-20">
 
             
             <!-- Project 1 -->
             <section>
-            <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+            <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                 <input type="checkbox" class="peer" /> 
                 <div class="collapse-title text-xl font-light ">
                     University Database System 🗄️
                 </div>
                 <div class="collapse-content"> 
-                    <div class="h-0.5 bg-base-200 mb-2"></div>
+                    <div class="h-0.5 bg-neutral mb-2"></div>
                     <div class="flex flex-col items-center w-full space-y-2">
                         <p>Databases project to use MySQL database and PHP to build a web database application for a university. We made our database in MySQL Workbench and created an Entity Relationship diagram, a relational model with primary and foreign keys, and then implemented it on a website using HTML and CSS. 
                             The website features student and professor query pages that they can use to lookup various records in the database.</p>
@@ -172,13 +170,13 @@
 
              <!-- Project 2 -->
              <section>
-                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl font-light ">
                         Rock, Paper, Scissors ✂️
                     </div>
                     <div class="collapse-content"> 
-                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
                             <p>Project for front-end web engineering to build a design and implement a client-side, simple turn-based game application that works entirely in the browser, requiring only HTML, CSS, and JavaScript. Rock, Paper, Scissors uses Tailwind CSS framework with the DaisyUI Tailwind plugin.</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
@@ -203,13 +201,13 @@
 
                 <!-- Project 3 -->
                 <section>
-                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl font-light ">
                         Todo List 📝
                     </div>
                     <div class="collapse-content"> 
-                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
                             <p>Group project for front-end web engineering to design and prototype a working web application using a CSS framework (Tailwind) and a low-code backend tool (Remake). We created Task Blaster, a simple todo list application with user account creation and login support. Features a landing page, signup and login pages, and the main todo list page. Uses Tailwind CSS framework.</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
@@ -230,13 +228,13 @@
 
                 <!-- Project 4 -->
                 <section>
-                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl font-light ">
                         CF Grammar Compiler Program 🔑
                     </div>
                     <div class="collapse-content"> 
-                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
                             <p>Compilers project to write a compiler in c++ that, given the Context-Free Grammar and the parsing table, traces input strings over the arithmetic alphabet { i, +, - , *, / ), ( } ending with $, checking against the production rules and verifying if the given input string is accepted or rejected by compiler.</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
@@ -253,13 +251,13 @@
 
                 <!-- Project 5 -->
                 <section>
-                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl font-light ">
                         Unix Shell 💻
                     </div>
                     <div class="collapse-content"> 
-                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
                             <p>Operating Systems project to build a working Unix shell in C Language by creating processes with fork(), accepting all unix commands and integrating a command history</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
@@ -276,13 +274,13 @@
 
              <!-- Project 6 -->
              <section>
-                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-box">
+                <div tabindex="0" class="collapse collapse-arrow bg-white border border-neutral shadow-md shadow-base-300 rounded-lg">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl font-light ">
                         Portfolio Website 📁
                     </div>
                     <div class="collapse-content"> 
-                        <div class="h-0.5 bg-base-200 mb-2"></div>
+                        <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
                             <p>Designed and built this website to showcase my skills and projects!</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
@@ -306,9 +304,47 @@
             </section>
             </div>
         </section>
+        
+           
       <!-- Implement the Back Top Top Button -->
     <button id="scrollUpButton" class="hidden fixed z-90 bottom-7 right-7 md:bottom-12 md:right-12 border-0 w-12 h-12 rounded-full drop-shadow-md bg-primary text-white text-3xl font-bold">&uarr;</button>
 </main>
+ <!-- Contact me section -->
+ <footer class="pb-6 flex flex-col items-center p-3 bg-primary bg-opacity-40">
+    <h2 class="font-semibold text-xl pt-2">Contact Me!</h2>
+   
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 px-2 sm:px-0 sm:flex sm:jusify-center sm:space-x-3 pt-5">
+        <a id="linkedin" class="devicon-linkedin-plain text-2xl hover:scale-105 md:hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank"></a>
+        <a id="github" class="devicon-github-original colored text-2xl hover:scale-105 md:hover:scale-110 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank"></a>
+        <div class="flex items-center space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+                <path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 
+                46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 
+                21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 
+                22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 
+                34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 
+                37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"></path>
+            </svg>
+            <p class="text-sm">(949)-981-5607</p>
+        </div>
+        <div class="flex items-center space-x-1">
+            <a href="mailto:pmartel48@csu.fullerton.edu?Subject=Some%20subject">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="25" height="25"
+                viewBox="0 0 50 50">
+                <path d="M 14 4 C 8.4886661 4 4 8.4886661 4 14 L 4 36 C 4 41.511334 8.4886661 46 14 46 L 36 46 C 41.511334 46 46 41.511334 46 36 L 46 14 C 46 8.4886661 41.511334 4 36 4 L 14 4 z M 13 16 L 37 16 C 37.18 16 37.349766 16.020312 
+                37.509766 16.070312 L 27.679688 25.890625 C 26.199688 27.370625 23.790547 27.370625 22.310547 25.890625 L 12.490234 16.070312 C 12.650234 16.020312 12.82 16 13 16 z M 11.070312 17.490234 L 18.589844 25 L 11.070312 32.509766 C 11.020312 
+                32.349766 11 32.18 11 32 L 11 18 C 11 17.82 11.020312 17.650234 11.070312 17.490234 z M 38.929688 17.490234 C 38.979688 17.650234 39 17.82 39 18 L 39 32 C 39 32.18 38.979687 32.349766 38.929688 32.509766 L 31.400391 25 L 38.929688 17.490234 z M 
+                20 26.410156 L 20.890625 27.310547 C 22.020625 28.440547 23.510234 29 24.990234 29 C 26.480234 29 27.959844 28.440547 29.089844 27.310547 L 29.990234 26.410156 L 37.509766 33.929688 C 37.349766 33.979688 37.18 34 37 34 L 13 34 C 12.82 34 12.650234 
+                33.979687 12.490234 33.929688 L 20 26.410156 z"></path>
+                </svg>
+            </a>
+            <p class="text-sm">parkermartel48@gmail.com</p>
+        </div>
+    
+    </div>
+</footer>
+    
     <script type="module" src="main.js"></script>
 </body>
 </html>
