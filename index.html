@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- <html data-theme="light" lang="en" class="bg-[url('/assets/images/dots3.jpg')]"> -->
-<html data-theme="light" lang="en" class="bg-zinc-50 h-max">
+<html data-theme="light" lang="en" class="bg-[url('/assets/images/lines3.jpg')] h-max">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,23 +58,25 @@
     </header>
     <main class="flex flex-col mx-auto max-w-4xl px-10 md:px-12">
         <!-- Name and Profile Pic Section -->
-        <section id="home" class="section flex flex-col items-center justify-center text-center sm:justify-center h-screen sm:items-start sm:text-left space-y-7">
-            <h2 class="font-bold pb-1 text-5xl md:text-6xl">Hi There,</h2>
-            <h2 class="font-bold pb-1 text-5xl md:text-6xl">I'm Parker <span class="text-primary">Martel</span></h2>
+        <section id="home" class="section flex flex-col justify-center h-screen w-full items-center">
+            <div class="items-start text-left space-y-7 p-6 bg-white border-2 border-neutral shadow-lg rounded-xl">
+            <h2 class="font-bold pb-1 text-5xl sm:text-6xl">Hi There,</h2>
+            <h2 class="font-bold pb-1 text-5xl sm:text-6xl">I'm Parker <span class="text-primary">Martel</span></h2>
             <h2 class="text-lg md:text-xl text-left font-semibold">Junior undergrad student at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>working towards a Bachelor's 
                 degree in Computer Science!
             </h2>   
-            <button id="AboutmeButton" class="btn btn-outline btn-primary">About Me</button>    
+            <button id="AboutmeButton" class="btn btn-outline btn-primary">About Me</button> 
+            </div>   
         </section>
 
         <!-- About Me section -->
-        <section class="flex flex-col justify-start items-start mb-10 z-0">
+        <section class="flex flex-col justify-start items-start mb-10 z-0 bg">
             <h2 id="aboutme" class="section scroll-mt-24 font-semibold text-3xl md:text-4xl">About Me</h2>
             <div class="w-1/3 h-1 rounded-full bg-primary"></div>
-            <div class="rounded-2xl border-2 border-black p-4 my-5 shadow-sm shadow-primary">
-        <p class="text-lg md:text-xl">My name is Parker and I am in my junior year at CSUF as a CS major, with a prospective graduation date of May 2024. Throughout my time as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
-            including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I'm hard-working, focused, and adaptive, perfect for working in an agile environment. I always do my best and aim to keep myself and my teams on track, leading us to create astonishing projects. Prior to graduating, I  
-            hope to get an internship over the summer to get experience in the field and create useful work. Outside of my studies, I enjoy going to the beach and being in the ocean!</p>
+            <div class="rounded-2xl border-2 border-black p-4 my-5 shadow-lg bg-white">
+                <p class="text-lg md:text-xl">My name is Parker and I am in my junior year at CSUF as a CS major, with a prospective graduation date of May 2024. Throughout my time as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
+                including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I'm hard-working, focused, and adaptive, perfect for working in an agile environment. I always do my best and aim to keep myself and my teams on track, leading us to create astonishing projects. Prior to graduating, I  
+                hope to get an internship over the summer to get experience in the field and create useful work. Outside of my studies, I enjoy going to the beach and being in the ocean!</p>
             </div>
         </section>
 
@@ -304,7 +306,6 @@
       <!-- Implement the Back Top Top Button -->
     <button id="scrollUpButton" class="hidden fixed z-90 bottom-7 right-7 md:bottom-12 md:right-12 border-0 w-12 h-12 rounded-full drop-shadow-md bg-primary text-white text-3xl font-bold">&uarr;</button>
 </main>
-<div class="h-0.5 bg-primary rounded-t-lg"></div>
  <!-- Contact me section -->
  <footer class="pt-6 pb-12 flex flex-col items-center bg-zinc-800 text-white">
     <h2 class="text-2xl font-semibold pt-2 pb-5">Contact Me!</h2>
