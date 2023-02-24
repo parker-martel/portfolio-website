@@ -26,9 +26,17 @@ nav {
 }
 
 .skills-boxes {
-    @apply flex justify-center space-x-3 items-center bg-white px-4 py-3 rounded-lg border border-neutral shadow-md shadow-base-300
+    @apply flex justify-center space-x-3 items-center bg-white bg-opacity-85 backdrop-blur-sm px-4 py-3 rounded-lg border border-black shadow-lg
 }
 
 .language-box {
-    @apply flex justify-center space-x-2 items-center px-2 py-1 rounded-lg bg-base-200 border-box border-neutral
+    @apply flex justify-center space-x-2 items-center px-2 py-1 rounded-lg bg-base-200 border-box border-black
+}
+
+.project-box {
+    @apply bg-white bg-opacity-85 backdrop-blur-sm border border-black shadow-lg rounded-lg
+}
+
+.bg-opacity-85 {
+    --tw-bg-opacity: 0.85;
 }
