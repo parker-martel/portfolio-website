@@ -3509,6 +3509,10 @@ html {
   background-image: url('/assets/images/dots.jpg');
 }
 
+.bg-\[url\(\'\/assets\/images\/dotsfinal\.jpg\'\)\] {
+  background-image: url('/assets/images/dotsfinal.jpg');
+}
+
 .p-2 {
   padding: 0.5rem;
 }
