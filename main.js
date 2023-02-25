@@ -56,25 +56,12 @@ aboutmebtn.addEventListener('click', function(event) {
 // Nav bar shrinks when scrolling down
 window.addEventListener('scroll', function(){
   let nav = document.querySelector("nav");
-  nav.classList.toggle("sticky", window.scrollY > 0);
+  nav.classList.toggle("sticky", window.scrollY > 50);
 })
 
 
 // Highligth nav bar items when scrolling down to each section
-const navitems = document.getElementsByClassName("navitems");
 const sections = document.getElementsByClassName("section");
-
-// Hamburger menu items
-function activeMenu(){
-  let length = sections.length;
-  while (--length && window.scrollY + 200 < sections[length].offsetTop){}
-    Array.from(navitems).forEach(element => { 
-      element.classList.remove("active")
-    });
-    navitems[length].classList.add("active");
-  }
-  activeMenu();
-  window.addEventListener("scroll", activeMenu);
 
 
 const navitems2 = document.getElementsByClassName("navitems2");
