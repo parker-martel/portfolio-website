@@ -34,9 +34,10 @@ nav {
 }
 
 .project-box {
-    @apply bg-white bg-opacity-85 backdrop-blur-sm border border-black shadow-lg rounded-lg
+    @apply bg-white bg-opacity-85 backdrop-blur-sm border border-black shadow-md rounded-box
 }
 
 .bg-opacity-85 {
     --tw-bg-opacity: 0.85;
 }
+
