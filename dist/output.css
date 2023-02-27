@@ -3142,10 +3142,6 @@ html {
   max-width: 100%;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .scroll-mt-24 {
   scroll-margin-top: 6rem;
 }
@@ -3474,6 +3470,8 @@ nav.sticky {
 
 nav {
   transition: padding 200ms;
+  padding-right: max(16px, env(safe-area-inset-right));
+  padding-left: max(16px, env(safe-area-inset-left))
 }
 
 .border {
@@ -3569,6 +3567,20 @@ nav {
 
 .bg-opacity-85 {
   --tw-bg-opacity: 0.85;
+}
+
+main {
+  transition: padding 200ms;
+  max-width: 52rem/* 896px */;
+  padding-left: max(16px, env(safe-area-inset-left));
+  padding-right: max(16px, env(safe-area-inset-right))
+}
+
+@media (min-width: 640px) {
+  nav {
+    padding-left: max(3rem, env(safe-area-inset-left));
+    padding-right: max(3rem, env(safe-area-inset-right))
+  }
 }
 
 .hover\:scale-105:hover {
@@ -3707,4 +3719,3 @@ nav {
     display: flex;
   }
 }
-
