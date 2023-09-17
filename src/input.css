@@ -63,3 +63,71 @@ main {
         padding-right: max(3rem, env(safe-area-inset-right)) 
     }
 }
+
+@media (max-width: 640px) {
+    a#scroll-btn {
+        bottom: 3em;
+    }
+}
+
+@media (max-height: 640px) {
+    a#scroll-btn {
+        visibility: hidden;
+    }
+    #home {
+        padding-top: 6em;
+    }
+    #aboutme {
+        padding-top: 3em;
+    }
+}
+
+a#scroll-btn {
+    position: absolute;
+    height: 2.5em;
+    width: 1.5em;
+    border: 0.15em solid #000000;
+    margin: auto;
+    border-radius: 3em;
+
+}
+
+a#scroll-btn:before {
+    position: absolute;
+    content: "";
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.4em;
+    height: 0.4em;
+    width: 0.4em;
+    background-color: #000000;
+    border-radius: 50%;
+    animation: move-down 2s infinite;
+
+}
+
+@keyframes move-down {
+    80%{
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(1em);
+        opacity: 0;
+    }
+}
+
+a#scroll-btn:after {
+    position: absolute;
+    content: "SCROLL DOWN";
+    width: 12em;
+    display: block;
+    text-align: center;
+    left: -4.75em;
+    bottom: -2.5em;
+    font-size: 0.7em;
+    color: #000000;
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}

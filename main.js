@@ -15,6 +15,7 @@ function scrollUp() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+
 // Nav bar links that scroll down page when clicked
 const homeclass = document.getElementsByClassName("homeclass");
 const aboutmeclass = document.getElementsByClassName("aboutmeclass");
@@ -46,7 +47,7 @@ Array.from(projectsclass).forEach(link => {
 });
 
 
-let aboutmebtn = document.getElementById("AboutmeButton");
+let aboutmebtn = document.getElementById("HomeSection");
 // About Me Button
 aboutmebtn.addEventListener('click', function(event) {
   aboutme.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
