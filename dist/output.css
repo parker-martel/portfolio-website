@@ -3679,7 +3679,7 @@ main {
 a#scroll-btn {
   position: absolute;
   height: 2.6em;
-  width: 1.7em;
+  width: 1.65em;
   border: 0.15em solid #000000;
   margin: auto;
   border-radius: 3em;
@@ -3696,7 +3696,7 @@ a#scroll-btn:before {
   width: 0.4em;
   background-color: #000000;
   border-radius: 50%;
-  animation: move-down 2s infinite;
+  animation: move-down 1.5s infinite;
 }
 
 @keyframes move-down {
@@ -3830,10 +3830,6 @@ a#scroll-btn:after {
 
   .md\:right-12 {
     right: 3rem;
-  }
-
-  .md\:right-20 {
-    right: 5rem;
   }
 
   .md\:grid-cols-4 {
