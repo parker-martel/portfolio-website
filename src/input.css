@@ -87,8 +87,8 @@ main {
 
 a#scroll-btn {
     position: absolute;
-    height: 2.5em;
-    width: 1.5em;
+    height: 2.6em;
+    width: 1.7em;
     border: 0.15em solid #000000;
     margin: auto;
     border-radius: 3em;
@@ -115,7 +115,7 @@ a#scroll-btn:before {
         opacity: 0.5;
     }
     100% {
-        transform: translateY(1em);
+        transform: translateY(1.15em);
         opacity: 0;
     }
 }

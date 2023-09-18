@@ -85,9 +85,6 @@ function activeMenu2(){
   activeMenu2();
   window.addEventListener("scroll", activeMenu2);
 
-  
-
-
 
 
 

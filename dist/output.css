@@ -3084,8 +3084,8 @@ body {
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
+.right-16 {
+  right: 4rem;
 }
 
 .z-10 {
@@ -3678,8 +3678,8 @@ main {
 
 a#scroll-btn {
   position: absolute;
-  height: 2.5em;
-  width: 1.5em;
+  height: 2.6em;
+  width: 1.7em;
   border: 0.15em solid #000000;
   margin: auto;
   border-radius: 3em;
@@ -3705,7 +3705,7 @@ a#scroll-btn:before {
   }
 
   100% {
-    transform: translateY(1em);
+    transform: translateY(1.15em);
     opacity: 0;
   }
 }
@@ -3776,6 +3776,14 @@ a#scroll-btn:after {
 }
 
 @media (min-width: 640px) {
+  .sm\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .sm\:right-20 {
+    right: 5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -3822,6 +3830,10 @@ a#scroll-btn:after {
 
   .md\:right-12 {
     right: 3rem;
+  }
+
+  .md\:right-20 {
+    right: 5rem;
   }
 
   .md\:grid-cols-4 {
