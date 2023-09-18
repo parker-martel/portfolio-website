@@ -80,6 +80,9 @@ main {
     #aboutme {
         padding-top: 3em;
     }
+    #hithere {
+        padding: 1.5em;
+    }
 }
 
 a#scroll-btn {
