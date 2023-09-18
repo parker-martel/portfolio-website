@@ -3356,6 +3356,10 @@ body {
   background-image: url('/assets/images/waves5-2-2.jpg');
 }
 
+.bg-\[url\(\'\/assets\/images\/wavesblurred\.jpg\'\)\] {
+  background-image: url('/assets/images/wavesblurred.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
