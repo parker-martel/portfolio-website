@@ -3348,12 +3348,31 @@ body {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 82 91 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/assets\/images\/dots3\.jpg\'\)\] {
   background-image: url('/assets/images/dots3.jpg');
 }
 
 .bg-\[url\(\'\/assets\/images\/waves5-5\.jpg\'\)\] {
   background-image: url('/assets/images/waves5-5.jpg');
+}
+
+.bg-\[url\(\'\/assets\/images\/waves5-3\.jpg\'\)\] {
+  background-image: url('/assets/images/waves5-3.jpg');
 }
 
 .bg-cover {
