@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="fixed top-0 left-0 z-10 bg-white">
@@ -51,29 +54,34 @@
     <main class="mx-auto">
         <!-- Name and Profile Pic Section -->
         <section id="home" class="section flex flex-col w-full items-center justify-center h-screen">
-            <div id="hithere" class="flex flex-col space-y-6 md:space-y-10 items-start text-left p-4 md:p-8 py-8 md:py-12 bg-white bg-opacity-85 backdrop-blur-sm shadow-lg border-4 border-neutral-focus rounded-2xl">
+            <div id="hithere" class="flex flex-col space-y-6 md:space-y-10 items-start text-left p-4 md:p-8 py-8 md:py-12 bg-white backdrop-blur-sm shadow-lg border-4 border-neutral-focus rounded-2xl">
                 <div class="flex flex-col space-y-5">
                     <h2 class="font-bold text-5xl md:text-6xl">Hi There,</h2>
                     <h2 class="font-bold text-3xl md:text-5xl">I'm Parker <span class="text-primary">Martel</span></h2>
                 </div>
-                <h2 id="HomeSection" class="text-lg md:text-xl text-left font-semibold">Junior undergrad at <span class="text-blue-900">California State University,</span> <span class="text-orange-500">Fullerton </span>working towards a Bachelor's 
-                    degree in Computer Science!
+                <h2 id="HomeSection" class="text-lg md:text-xl text-left font-medium">Senior undergrad at California State University, Fullerton pursuing a Bachelor's 
+                    degree in Computer Science
                 </h2>
                 
                 
                 <!-- <button id="AboutmeButton" class="btn btn-outline btn-primary">About Me</button>  -->
             </div>   
         </section>
+ 
+        <!-- <h2 class="text-lg md:text-xl font-semilight text-center bottom-12 left-0 right-0 text-black absolute">Learn more about me
+        </h2>
+        <h2 id="caret" class="text-lg md:text-xl font-semilight text-center bottom-6 left-0 right-0 text-black absolute">^
+        </h2> -->
+        
         
         <div class="flex flex-col space-y-12">
             <!-- About Me section -->
-            <section class="flex flex-col justify-start items-start mb-10 z-0 bg">
+            <section class="flex flex-col justify-start items-start mb-10 z-0">
                 <h2 id="aboutme" class="section scroll-mt-24 font-semibold text-3xl md:text-4xl text-white">About Me</h2>
                 <div class="w-1/3 h-1 rounded-full bg-base-content"></div>
-                <div class="rounded-2xl border-2 border-neutral-focus p-4 my-5 shadow-lg bg-white bg-opacity-85 backdrop-blur-sm">
-                    <p class="text-lg md:text-xl">I'm a junior year CS major at CSUF with a prospective graduation date of May 2024. Throughout my time as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
-                    including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I'm hard-working, focused, and adaptive, perfect for working in an agile environment. Prior to graduating, I  
-                    hope to get an internship over the summer to get experience in the field and create useful work. Outside of my studies, I enjoy going to the beach!</p>
+                <div class="rounded-2xl border-2 border-neutral-focus p-4 my-5 shadow-lg bg-white backdrop-blur-sm">
+                    <p class="text-lg md:text-xl">I'm in my senior year with a prospective graduation date of May 2024. Throughout my time as an undergrad, I have had the chance to learn about and explore many areas in Computer Science thus far, 
+                    including data structures and algorithms, web security, databases, software engineering, networking, compilers, and web development! I'm hard-working, focused, and adaptive, perfect for working in an agile environment.</p>
                 </div>
             </section>
 
@@ -300,10 +308,12 @@
         </div>       
         <!-- Implement the Back Top Top Button -->
         <button id="scrollUpButton" class="hidden fixed z-90 bottom-7 right-7 md:bottom-12 md:right-12 border-0 w-12 h-12 rounded-full drop-shadow-md bg-primary text-white text-3xl font-bold">&uarr;</button>
-        <a class="bottom-0 right-16 sm:bottom-12 sm:right-20" id="scroll-btn"></a>
+        
+        <!-- Scroll down animation -->
+        <a class="bottom-0 right-0 left-0 sm:bottom-12" id="scroll-btn"></a>
     </main>
     <!-- Contact me section -->
-    <footer class="pt-6 pb-12 flex flex-col items-center bg-zinc-800 text-white rounded-t-xl">
+    <footer class="pt-6 pb-12 flex flex-col items-center bg-zinc-900 text-white rounded-t-md">
         <h2 class="text-2xl pt-2 pb-5">- Contact Me -</h2>
     
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 px-2 sm:px-0 sm:flex sm:jusify-center sm:space-x-3 pt-5">

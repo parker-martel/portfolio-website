@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
@@ -16,6 +16,7 @@ nav {
     padding-right: max(16px, env(safe-area-inset-right));
     padding-left: max(16px, env(safe-area-inset-left))
 }
+
 
 
 .border {
@@ -35,19 +36,23 @@ nav {
 }
 
 .skills-boxes {
-    @apply flex justify-center space-x-3 items-center bg-white bg-opacity-85 backdrop-blur-sm px-4 py-3 rounded-lg border border-neutral-focus shadow-lg
+    @apply flex justify-center space-x-3 items-center bg-white backdrop-blur-sm px-4 py-3 rounded-lg border border-neutral-focus shadow-lg
 }
 
 .language-box {
-    @apply flex justify-center space-x-2 items-center px-2 py-1 rounded-lg bg-base-200 border-box border-neutral-focus
+    @apply flex justify-center bg-white space-x-2 items-center px-2 py-1 rounded-lg border-box border-neutral-focus
 }
 
 .project-box {
-    @apply bg-white bg-opacity-85 backdrop-blur-sm border border-neutral-focus shadow-md rounded-box
+    @apply bg-white border border-neutral-focus shadow-md rounded-box
 }
 
 .bg-opacity-85 {
     --tw-bg-opacity: 0.85;
+}
+
+#caret {
+    transform: rotate(180deg);
 }
 
 main {
@@ -101,7 +106,7 @@ a#scroll-btn:before {
     margin: auto;
     left: 0;
     right: 0;
-    top: 0.4em;
+    bottom: 0.4em;
     height: 0.4em;
     width: 0.4em;
     background-color: #000000;
@@ -115,7 +120,7 @@ a#scroll-btn:before {
         opacity: 0.5;
     }
     100% {
-        transform: translateY(1.15em);
+        transform: translateY(-1.15em);
         opacity: 0;
     }
 }
