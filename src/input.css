@@ -28,7 +28,7 @@ nav {
 }
 
 .active2 {
-    @apply text-black font-bold
+    @apply text-white font-bold
 }
 
 .activespan {
@@ -36,15 +36,15 @@ nav {
 }
 
 .skills-boxes {
-    @apply flex justify-center space-x-3 items-center bg-white backdrop-blur-sm px-4 py-3 rounded-lg border border-neutral-focus shadow-lg
+    @apply flex justify-center space-x-3 items-center bg-base-300 text-white px-4 py-3 rounded-lg border border-neutral-focus shadow-lg
 }
 
 .language-box {
-    @apply flex justify-center bg-white space-x-2 items-center px-2 py-1 rounded-lg border-box border-neutral-focus
+    @apply flex justify-center bg-base-300 space-x-2 text-white items-center px-2 py-1 rounded-lg border-box border-neutral-focus
 }
 
 .project-box {
-    @apply bg-white border border-neutral-focus shadow-md rounded-box
+    @apply bg-base-300 text-white border border-neutral-focus shadow-md rounded-box
 }
 
 .bg-opacity-85 {
@@ -94,7 +94,7 @@ a#scroll-btn {
     position: absolute;
     height: 2.6em;
     width: 1.65em;
-    border: 0.15em solid #000000;
+    border: 0.15em solid #ffffff;
     margin: auto;
     border-radius: 3em;
 
@@ -109,7 +109,7 @@ a#scroll-btn:before {
     bottom: 0.4em;
     height: 0.4em;
     width: 0.4em;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 50%;
     animation: move-down 1.5s infinite;
 
@@ -134,7 +134,7 @@ a#scroll-btn:after {
     left: -4.75em;
     bottom: -2.5em;
     font-size: 0.7em;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 3px;
     font-weight: 600;
 
