@@ -88,6 +88,21 @@ main {
     #hithere {
         padding: 1.5em;
     }
+    #hi {
+        @apply text-5xl
+    }
+    #myname {
+        @apply text-3xl
+    }
+    #booksimage {
+        @apply h-28
+    }
+    #intro {
+        @apply mb-0
+    }
+    #introbox {
+        @apply space-y-20
+    }
 }
 
 a#scroll-btn {

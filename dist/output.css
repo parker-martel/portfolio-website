@@ -3174,8 +3174,8 @@ body {
   height: 100vh;
 }
 
-.h-44 {
-  height: 11rem;
+.h-36 {
+  height: 9rem;
 }
 
 .h-1 {
@@ -3184,10 +3184,6 @@ body {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-36 {
-  height: 9rem;
 }
 
 .w-screen {
@@ -3290,16 +3286,10 @@ body {
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-20 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -3330,18 +3320,6 @@ body {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -3404,11 +3382,6 @@ body {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .pt-3 {
@@ -3687,6 +3660,30 @@ main {
   #hithere {
     padding: 1.5em;
   }
+
+  #hi {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  #myname {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  #booksimage {
+    height: 7rem;
+  }
+
+  #intro {
+    margin-bottom: 0px;
+  }
+
+  #introbox > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  }
 }
 
 a#scroll-btn {
@@ -3844,10 +3841,6 @@ a#scroll-btn:after {
     height: 10rem;
   }
 
-  .md\:h-44 {
-    height: 11rem;
-  }
-
   .md\:max-w-5xl {
     max-width: 64rem;
   }
@@ -3890,12 +3883,6 @@ a#scroll-btn:after {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
   }
 
   .md\:text-left {
