@@ -32,19 +32,19 @@ nav {
 }
 
 .activespan {
-    @apply bg-primary visible
+    @apply bg-[#c04444] visible
 }
 
 .skills-boxes {
-    @apply flex justify-center space-x-3 items-center bg-base-300 text-white px-4 py-3 rounded-lg border border-neutral-focus shadow-lg
+    @apply flex justify-center space-x-3 items-center bg-base-300 px-4 py-3 rounded-lg border border-zinc-900
 }
 
 .language-box {
-    @apply flex justify-center bg-base-300 space-x-2 text-white items-center px-2 py-1 rounded-lg border-box border-neutral-focus
+    @apply flex justify-center bg-gray-200 space-x-2 items-center px-2 py-1 text-base-300 rounded-lg border-box border-base-200
 }
 
 .project-box {
-    @apply bg-base-300 text-white border border-neutral-focus shadow-md rounded-box
+    @apply bg-base-300 border rounded-xl border-zinc-900
 }
 
 .bg-opacity-85 {
