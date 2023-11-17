@@ -3204,6 +3204,10 @@ body {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-36 {
   height: 9rem;
 }
@@ -3214,10 +3218,6 @@ body {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-screen {
@@ -3399,16 +3399,6 @@ body {
 .bg-zinc-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/assets\/images\/dots3\.jpg\'\)\] {
@@ -3791,18 +3781,6 @@ a#scroll-btn:after {
 
   .xs\:h-40 {
     height: 10rem;
-  }
-
-  .xs\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse));
-  }
-
-  .xs\:space-y-32 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(8rem * var(--tw-space-y-reverse));
   }
 
   .xs\:space-y-28 > :not([hidden]) ~ :not([hidden]) {
