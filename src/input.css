@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
@@ -36,15 +36,15 @@ nav {
 }
 
 .skills-boxes {
-    @apply flex justify-center space-x-3 items-center bg-base-300 px-4 py-3 rounded-lg border border-zinc-900
+    @apply flex justify-center space-x-3 items-center bg-[#1C1C20] px-4 py-3 rounded-lg border border-[#17171A]
 }
 
 .language-box {
-    @apply flex justify-center bg-gray-200 space-x-2 items-center px-2 py-1 text-base-300 rounded-lg border-box border-base-200
+    @apply flex justify-center bg-gray-300 space-x-2 items-center px-2 py-1 text-base-300 rounded-lg border-box border-[#17171A]
 }
 
 .project-box {
-    @apply bg-base-300 border rounded-xl border-zinc-900
+    @apply bg-[#1C1C20] border rounded-xl border-[#17171A]
 }
 
 .bg-opacity-85 {
